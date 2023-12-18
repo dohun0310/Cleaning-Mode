@@ -10,15 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "bubbles.and.sparkles")   .imageScale(.large)
+            Image(systemName: "bubbles.and.sparkles")
+                .imageScale(.large)
+                .font(.system(size: 36))
             Text(NSLocalizedString("Cleaning_Mode_Title", comment: "Title for cleaning mode"))
                 .fontWeight(.bold)
+                .font(.system(size: 42))
                 .multilineTextAlignment(.center)
         }
         .padding()
         VStack {
             Text(NSLocalizedString("Cleaning_Mode_Description", comment: "Description for cleaning mode"))
+                .font(.system(size: 15))
+                .foregroundColor(.secondary)
             Text(NSLocalizedString("Cleaning_Mode_Exit_Description", comment: "Instructions for exiting cleaning mode"))
+                .font(.system(size: 15))
+                .foregroundColor(.secondary)
         }
         .padding()
     }
