@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  CleaningMode
+
+  Created by 김도훈 on 12/18/23.
+  
+*/
+
+/* Title for cleaning mode */
+"Cleaning_Mode_Title" = "청소 모드";
+
+/* Description for cleaning mode */
+"Cleaning_Mode_Description" = "청소 모드에서는 키보드와 트랙패드가 비활성화 됩니다.";
+
+/* Instructions for exiting cleaning mode */
+"Cleaning_Mode_Exit_Description" = "⌘+⎋를 눌러 나가십시오.";
